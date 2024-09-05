@@ -1,0 +1,141 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.form-section {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.enthusiast-label {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.stats span {
+  font-size: 14px;
+  color: #999;
+}
+
+.upload-avatar-button {
+  display: inline-block;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-avatar-button input {
+  display: none;
+}
+
+.slogan {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+input[disabled] {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.save-update-button {
+  width: 100%;
+  background-color: #007bff;
+  margin-top: 10px;
+}
+
+.birthday-container,
+.location-container,
+.postal-phone-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.birthday-container input,
+.location-container select,
+.location-container input,
+.postal-phone-container input {
+  width: 48%;
+  margin-right: 15px;
+}
+
+.checkbox-container {
+  margin: 20px 0;
+}
+
+.checkbox-container label {
+  font-size: 14px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
